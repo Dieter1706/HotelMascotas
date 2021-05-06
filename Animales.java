@@ -1,4 +1,4 @@
-
+package HotelMascotas;
 
 public class Animales{
     private String nombreAnimal;

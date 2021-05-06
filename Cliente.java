@@ -1,3 +1,6 @@
+package HotelMascotas;
+
+
 public class Cliente{
     private String nombreCliente;
     private int CantMascotas;
