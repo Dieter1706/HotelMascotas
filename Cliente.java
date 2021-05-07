@@ -4,16 +4,12 @@ package HotelMascotas;
 public class Cliente{
     private String nombreCliente;
     private int CantMascotas;
-    private int CantDias;
-    private int Descuentos;
-    private int Medio;
 
-    public Cliente(String nombreCliente, int CantMascotas, int CantDias, int Descuentos, int Medio){
+
+    public Cliente(String nombreCliente, int CantMascotas){
         this.nombreCliente = nombreCliente;
         this.CantMascotas = CantMascotas;
-        this.CantDias = CantDias;
-        this.Descuentos = Descuentos;
-        this.Medio = Medio;
+
     }
 
     public String getnombreCliente(){
@@ -25,6 +21,6 @@ public class Cliente{
     }
 
     public int getCantidadMascotas(){
-        return this.Cantidad;
+        return this.CantMascotas;
     }
 }
